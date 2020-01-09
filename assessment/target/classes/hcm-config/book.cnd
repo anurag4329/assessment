@@ -1,0 +1,10 @@
+<'nt'='http://www.jcp.org/jcr/nt/1.0'>
+<'book'='http://www.onehippo.org/jcr/myhippoproject/book/1.0'>
+
+[book:Book] > nt:base
+ - book:isbn (string) mandatory
+ - book:title (string)
+ - book:author (string) multiple
+ - book:shortDescription (string)
+ - book:publicationDate (date)
+ - book:firstPublicationDate (date)

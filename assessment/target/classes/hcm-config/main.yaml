@@ -1,0 +1,17 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:modules/hello-module:
+      jcr:primaryType: hipposys:module
+      hipposys:className: org.example.assessment.HelloModule
+      /hippo:moduleconfig:
+        jcr:primaryType: nt:unstructured
+        exampleConfigurationOption: exampleConfigurationOptionValue
+    /hippo:configuration/hippo:modules/books-module:
+      jcr:primaryType: hipposys:module
+      hipposys:className: org.example.assessment.BooksModule
+      /hippo:moduleconfig:
+        jcr:primaryType: nt:unstructured
+  namespace:
+    book:
+      uri: http://www.onehippo.org/jcr/myhippoproject/book/1.0
+      cnd: book.cnd

@@ -1,0 +1,5 @@
+org\example\assessment\Book.class
+org\example\assessment\HelloModule$HelloResource.class
+org\example\assessment\BooksModule$BooksResource.class
+org\example\assessment\BooksModule.class
+org\example\assessment\HelloModule.class
